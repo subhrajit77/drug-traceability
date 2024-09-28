@@ -11,23 +11,22 @@ interface workdata {
 const workdata: workdata[] = [
     {
         imgSrc: '/images/Work/icon-one.svg',
-        heading: 'Create Account',
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this',
-        hiddenpara: 'standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
+        heading: 'Create Your Account',
+        subheading: 'Get started by creating your OmniLedger account. Securely manage your traceability operations with a user-friendly interface and personalized dashboard.',
+        hiddenpara: 'Sign up quickly and set up your profile to access OmniLedger’s features. ',
     },
     {
         imgSrc: '/images/Work/icon-two.svg',
-        heading: 'Find your Credit',
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this',
-        hiddenpara: 'standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
+        heading: 'Upload and Verify Data',
+        subheading: 'Easily upload and verify product data at each stage of your supply chain.',
+        hiddenpara: 'Use OmniLedger’s intuitive tools to input and verify data such as product origins, processing stages, and distribution details.'
     },
     {
         imgSrc: '/images/Work/icon-three.svg',
-        heading: 'Exchange Currency',
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this',
-        hiddenpara: 'standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
+        heading: 'Track and Monitor',
+        subheading: 'Monitor the entire lifecycle of your products with real-time tracking. Access detailed reports and insights to make informed decisions and ensure compliance.',
+        hiddenpara: 'Track products from origin to destination, view historical data, and generate compliance reports with ease.',
     },
-
 ]
 
 const Work = () => {
@@ -36,7 +35,7 @@ const Work = () => {
             <div className='mx-auto max-w-7xl mt-16 px-6 mb-20 relative'>
                 <div className="radial-bgone hidden lg:block"></div>
                 <div className='text-center mb-14'>
-                    <h3 className='text-offwhite text-3xl md:text-5xl font-bold mb-3'>How it work</h3>
+                    <h3 className='text-offwhite text-3xl md:text-5xl font-bold mb-3'>How It Works</h3>
                     <p className='text-bluish md:text-lg font-normal leading-8'>OmniLedger uses blockchain technology to securely capture, verify, and track product data across all stages of the supply chain. Each transaction is recorded in an immutable ledger, providing real-time transparency and trust for businesses across various industries.</p>
                 </div>
 
