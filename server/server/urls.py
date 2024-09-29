@@ -21,5 +21,6 @@ from django.urls.conf import include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('silk/', include('silk.urls', namespace='silk'))
+    path("auth/", include("accounts.urls")),
+    path("silk/", include("silk.urls", namespace="silk")),
 ]
