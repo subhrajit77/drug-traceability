@@ -9,5 +9,3 @@ This is the backend server for the project. It is built using Django and Django 
 3. Activate the virtual environment using `poetry shell`
 4. Migration the database using `python manage.py migrate`
 5. Run the server using `python manage.py runserver`
-
-
