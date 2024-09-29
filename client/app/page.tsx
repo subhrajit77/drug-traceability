@@ -14,7 +14,6 @@ export default function Home() {
       <Banner />
       <Companies />
       <Work />
-      <Table />
       <Features />
       <Simple />
       <Trade />
