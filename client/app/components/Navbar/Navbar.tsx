@@ -38,13 +38,13 @@ const Navbar = () => {
 
                             <div className="flex flex-shrink-0 items-center">
                                 <img
-                                    className="block h-10 w-20px lg:hidden"
-                                    src={'/images/Logo/logo.svg'}
+                                    className="block h-5 w-5px lg:hidden"
+                                    src={'/images/Logo/pharma-removebg.png'}
                                     alt="Crypto-Logo"
                                 />
                                 <img
-                                    className="hidden h-48px w-48px lg:block"
-                                    src={'/images/Logo/logo.svg'}
+                                    className="hidden h-10px w-10px lg:block"
+                                    src={'/images/Logo/pharma-removebg.png'}
                                     alt="Crypto-Logo"
                                 />
                             </div>

@@ -20,7 +20,7 @@ const Banner = () => {
                         <div className='arrowTwo'></div>
                         <div className='col-span-7'>
                             <h1 className="text-4xl lg:text-7xl font-bold mb-5 text-white md:4px md:text-start text-center">
-                            Unlock Infinite Traceability with <br /> OmniLedger
+                            Unlock Infinite Traceability with <br /> PharmaLedger
                             </h1>
                             <p className='text-white md:text-lg font-normal mb-10 md:text-start text-center'>From Pharmaceuticals to Logistics, Trust the Ledger that Connects It All</p>
                             <div className='flex align-middle justify-center md:justify-start'>
